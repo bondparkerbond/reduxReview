@@ -6,7 +6,7 @@ import Tweet from './Tweet'
 const About = () => (
   <div>
     <h1>This is my twitter app</h1>
-    <Tweet id={4} author='Hodor' tweet='Hodor!' />
+    <Tweet id={4} author="Hodor" tweet="Hodor!" />
   </div>
 )
 

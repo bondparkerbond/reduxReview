@@ -2,4 +2,4 @@
 .env
 lib
 /node_modules
-
+*/*.log
