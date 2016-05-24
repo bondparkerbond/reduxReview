@@ -3,6 +3,7 @@ import { syncHistoryWithStore } from 'react-router-redux' // only needed if usin
 import { browserHistory } from 'react-router'
 import rootReducer from './reducers/index'
 
+// this default data normally comes from a server...
 const defaultState = {
   tweets: [
     {
