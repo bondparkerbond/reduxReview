@@ -5,3 +5,10 @@ export const addTweet = (author, tweet) => {
     tweet
   }
 }
+
+export const searchTweets = (search) => {
+  return {
+    type: 'SEARCH_TWEETS',
+    search
+  }
+}
